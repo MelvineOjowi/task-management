@@ -1,0 +1,33 @@
+<?php
+session_start();
+?>
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Task Management</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="task.html">Task Management</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="slider">
+        <img src="images/cargo.jpg" alt="cargo.jpg">
+        <img src="images/lift.jpg" alt="lift.jpg">
+        <img src="images/post.jpg" alt="post.jpg">
+        <img src="images/warehouse.jpg" alt="safiri.jpg">
+      </div>
+      <script src="script1.js"></script>
+
+    </main>
+  </body>
+</html>

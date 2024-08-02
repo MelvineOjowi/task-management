@@ -1,0 +1,75 @@
+/* style.css */
+
+/* Navigation Bar Styles */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }
+  
+  /* Image Styles */
+  main img {
+    width: 25%; /* reduce image to half of the page */
+    height: auto;
+    margin: 0 auto; /* center the image */
+    display: block;
+  }
+  
+  /* Add some basic styling to the page */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    
+  /* style1.css */
+
+.slider {
+  position: relative;
+  width: 800px; /* adjust the width to your needs */
+  height: 600px; /* adjust the height to your needs */
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* make the images take up the full width of the slider */
+  height: 100%; /* make the images take up the full height of the slider */
+  object-fit: cover; /* make the images cover the entire slider area */
+  transition: opacity 0.5s;
+}
+
+.slider img.active {
+  opacity: 1;
+}
+
+.slider img:not(.active) {
+  opacity: 0;
+}
+  }
